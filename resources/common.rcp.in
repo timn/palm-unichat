@@ -1,0 +1,65 @@
+/* $Id: common.rcp.in,v 1.1 2003/02/06 20:15:57 tim Exp $
+ *
+ * common stuff. bitmaps, menus, alerts
+ */
+
+#include "UniChat.h"
+
+bitmapfamily id BITMAP_logo "images/icon_sw.bmp" "" "" "images/icon_256c.bmp" compress
+
+##TRANSLATION##
+
+bitmapcolor id BITMAP_beam "images/beam.bmp" compress
+bitmapcolor id BITMAP_beam_clicked "images/beam_clicked.bmp" compress
+bitmapcolor id BITMAP_del "images/delete.bmp" compress
+bitmapcolor id BITMAP_del_clicked "images/delete_clicked.bmp" compress
+bitmapcolor id BITMAP_info "images/info.bmp" compress
+bitmapcolor id BITMAP_info_clicked "images/info_clicked.bmp" compress
+bitmapcolor id BITMAP_help "images/help.bmp" compress
+bitmapcolor id BITMAP_help_clicked "images/help_clicked.bmp" compress
+bitmapcolor id BITMAP_ok "images/ok.bmp" compress
+bitmapcolor id BITMAP_ok_clicked "images/ok_clicked.bmp" compress
+
+/* help */
+string id HELP_main file "help_main.txt"
+
+
+
+/* menus */
+
+menu id MENU_main
+begin
+  pulldown "Uni Chat"
+  begin
+    menuitem "Send" id MENUITEM_send "S"
+    menuitem separator
+    menuitem "men_ab" id MENUITEM_about "A"
+  end
+end
+
+
+/* alerts */
+
+alert id ALERT_ROMIncompatible
+error
+begin
+  title "al_rominc1"
+  message "al_rominc2"
+  buttons "al_ok"
+end
+
+alert id ALERT_debug
+information
+begin
+  title "Guru Meditation"
+  message "^1^2^3"
+  buttons "OK"
+end
+
+alert id ALERT_notrunning
+error
+begin
+  title "al_notrun1"
+  message "al_notrun2"
+  buttons "al_ok"
+end

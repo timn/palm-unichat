@@ -1,0 +1,35 @@
+
+ [Uni Chat] CHANGES
+==============================================================================
+
+=== v0.4
+
+* Thu Feb 06 2003 Tim Niemueller <tim@niemueller.de>
+- Added CVS tags and checked in to CVS
+
+
+=== v0.3
+
+* Thu Jan 30 2003 Tim Niemueller <tim@niemueller.de>
+- Fixed bug that caused PalmOS 3.5.x (and probably earlier) handhelds to crash
+  when opening the menu. The MenuHideItem function seems to have a bug and does
+  not work properly. Work around by adding the send menuitem and appending to
+  the menu as I do in UniMatrix and UniChat.
+
+=== v0.2
+- ? Just forgot...
+
+=== v0.1
+
+* Thu Nov 27 2002 Tim Niemueller <tim@niemueller.de>
+- Fixed small glitch in ScrollBar code. Need to return false after handling
+  sclRepeatEvent...
+
+* Fri Nov 21 2002 Tim Niemueller <tim@niemueller.de>
+- First version done, can do everything I want :-)
+
+* Thu Nov 20 2002 Tim Niemueller <tim@niemueller.de>
+- Created Build environment and basic files for UniChat
+
+
+$Id: CHANGES,v 1.1 2003/02/06 20:15:57 tim Exp $

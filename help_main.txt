@@ -1,0 +1,5 @@
+Fire up UniChat on both Palms.
+Write message in text field at bottom and press beam
+button. Message appears on other Palm.
+
+Right now only IR transport is supported.

@@ -1,0 +1,21 @@
+/* $Id: form_main.rcp.in,v 1.1 2003/02/06 20:15:57 tim Exp $
+ *
+ * ressource file for main form
+ */
+
+#include "UniChat.h"
+
+form id FORM_main at (0 0 160 160)
+menuid MENU_main
+begin
+  title "Uni Chat"
+  button "" id BUTTON_help at (right@158 1 10 10) noframe graphical bitmapid BITMAP_help selectedbitmapid BITMAP_help_clicked
+  button "" id BUTTON_info at (prevleft-12 prevtop 10 10) noframe graphical bitmapid BITMAP_info selectedbitmapid BITMAP_info_clicked
+  gadget id GADGET_main at (0 16 160 89)
+  field id FIELD_input at (prevleft prevbottom+4 153 33) multiplelines underlined autoshift maxchars 250
+  scrollbar id SCROLLBAR_input at (prevright prevtop 7 prevheight)
+  button "" id BUTTON_del at (100 147 11 11) noframe graphical bitmapid BITMAP_del selectedbitmapid BITMAP_del_clicked
+  button "" id BUTTON_beam at (prevright+4 147 11 11) noframe graphical bitmapid BITMAP_beam selectedbitmapid BITMAP_beam_clicked
+  graffitistateindicator at (prevtop+1 146)
+
+end

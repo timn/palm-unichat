@@ -1,0 +1,34 @@
+/* $Id: translation.de,v 1.1 2003/02/06 20:15:57 tim Exp $ */
+
+translation "german"
+begin
+
+
+/* about translation */
+  "translator" = "Tim Niemueller"
+  "trans_mail" = "tim@niemueller.de"
+  "trans_hdev" = "Palm m515"
+  "trans_palm" = "4.1"
+  "trans_trby" = "Deutsche Übersetzung von:"
+
+
+/* menu */
+  "men_ab" = "Info"
+
+
+/* alerts */
+  "al_ok" = "OK"
+  "al_rominc1" = "System inkompatibel"
+  "al_rominc2" = "System Version 3.5 oder höher wird benötigt, um diese Anwendung zu nutzen."
+  "al_notrun1" = "UniChat starten"
+  "al_notrun2" = "Vor Empfang einer Nachricht UniChat starten."
+
+
+/* about */
+  "ab_title" = "Über UniChat"
+  "ab_d1" = "Software zum Quatschen"
+  "ab_d2" = "im Hörsaal gaaanz leise"
+  "ab_get" = "Neueste Version auf"
+
+
+end
