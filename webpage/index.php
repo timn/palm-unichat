@@ -1,6 +1,6 @@
 <?php
 
-/* $Id: index.php,v 1.2 2003/11/04 15:01:08 tim Exp $ */
+/* $Id: index.php,v 1.3 2003/11/04 15:02:18 tim Exp $ */
 
 $title="niemueller.de - palm software - UniChat";
 $meta_desc="PalmOS software for digital wireless whispering";
@@ -116,7 +116,6 @@ You may download the Palm install file provided as a .zip and as a .tar.gz file.
  </tr>
 <?   } ?>
 <? } ?>
- </tr>
 </table>
 <br/>
 
