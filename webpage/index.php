@@ -1,6 +1,6 @@
 <?php
 
-/* $Id: index.php,v 1.3 2003/11/04 15:02:18 tim Exp $ */
+/* $Id: index.php,v 1.4 2004/01/05 23:30:10 tim Exp $ */
 
 $title="niemueller.de - palm software - UniChat";
 $meta_desc="PalmOS software for digital wireless whispering";
@@ -14,6 +14,7 @@ $languages=array( "de" => "German/Deutsch",
                   "en" => "English"
                 );
 
+count_page("unichat");
 heading_lastmod();
 heading("Uni Chat",
         "PalmOS software for digital wireless whispering", "unichat_big.png");
