@@ -1,6 +1,6 @@
 <?php
 
-/* $Id: index.php,v 1.1 2003/02/06 20:15:57 tim Exp $ */
+/* $Id: index.php,v 1.1.1.1 2003/02/06 20:15:57 tim Exp $ */
 
 $title="niemueller.de - palm software - UniChat";
 $meta_desc="PalmOS software for digital wireless whispering";

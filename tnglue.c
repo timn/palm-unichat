@@ -1,4 +1,4 @@
-/* $Id: tnglue.c,v 1.1 2003/02/06 20:15:57 tim Exp $
+/* $Id: tnglue.c,v 1.1.1.1 2003/02/06 20:15:57 tim Exp $
  *
  * tnglue.c: Glue code to add some functions missing in 3.5 but present in 4.0+
  *

@@ -1,4 +1,4 @@
-/* $Id: gadget.c,v 1.1 2003/02/06 20:15:57 tim Exp $
+/* $Id: gadget.c,v 1.1.1.1 2003/02/06 20:15:57 tim Exp $
  *
  * Text gadget related implementation
  */

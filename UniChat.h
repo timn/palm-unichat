@@ -1,4 +1,4 @@
-/* $Id: UniChat.h,v 1.1 2003/02/06 20:15:57 tim Exp $
+/* $Id: UniChat.h,v 1.1.1.1 2003/02/06 20:15:57 tim Exp $
  *
  * ID's for use in ressource definitions
  *
