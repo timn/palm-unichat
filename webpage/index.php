@@ -1,6 +1,6 @@
 <?php
 
-/* $Id: index.php,v 1.1 2003/02/06 20:15:57 tim Exp $ */
+/* $Id: index.php,v 1.2 2003/11/04 15:01:08 tim Exp $ */
 
 $title="niemueller.de - palm software - UniChat";
 $meta_desc="PalmOS software for digital wireless whispering";
@@ -14,20 +14,10 @@ $languages=array( "de" => "German/Deutsch",
                   "en" => "English"
                 );
 
-box_begin("Uni Chat", "Last modified ".date ("F d Y H:i:s.", getlastmod()));
+heading_lastmod();
+heading("Uni Chat",
+        "PalmOS software for digital wireless whispering", "unichat_big.png");
 ?>
-<br/>
-
-<table border="0" cellpadding="4">
- <tr>
-  <td rowspan="2" valign="top"><img src="unichat_big.png" border="0" alt="Uni Mensa"></td>
-  <td><h3>Uni Chat</h3>
- </tr>
- <tr>
-  <td><h4>PalmOS software for digital wireless whispering</h4></td>
- </tr>
-</table>
-
 <div class="maintext">
 <h5>Introduction</h5>
 This PalmOS applications allows you to chat in absolutely noiseless environments. OK, a room
@@ -43,9 +33,9 @@ Some features:
 <br/>
 Just to be sure that you heard: You will need a PalmOS device to run this
 application. You can also use the Palm OS Emulator
-<a href="http://www.palmos.com/dev/tools/emulator/" target="_new">POSE</a>.
+<a href="http://www.palmos.com/dev/tools/emulator/" rel="external">POSE</a>.
 Linux binaries can be found
-<a href="http://sourceforge.net/project/showfiles.php?group_id=2189&release_id=84895" target="_new">here</a>.
+<a href="http://sourceforge.net/project/showfiles.php?group_id=2189" rel="external">here</a>.
 <br/>
 <i>Do not ask for ROM files</i>. I cannot and I do not want to share
 my ROMs with you. Go to the mentioned POSE page, there is a description
@@ -83,8 +73,8 @@ Some screenshots will give you an impression of the software.
 <br/><br/>
 <table border="0" width="100%" cellpadding="0">
  <tr>
-  <td align="center" width="33%"><img src="screens/main.png" border="1" alt="Main screen"></td>
-  <td align="center" width="33%"><img src="screens/about.png" border="1" alt="Edit Time"></td>
+  <td align="center" style="width:33%;"><img src="screens/main.png" style="border:1px solid #c0c0c0;" alt="Main screen" /></td>
+  <td align="center" style="width:33%;"><img src="screens/about.png" style="border:1px solid #c0c0c0;" alt="Edit Time" /></td>
  </tr>
  <tr>
   <th>Main screen</th>
@@ -126,24 +116,11 @@ You may download the Palm install file provided as a .zip and as a .tar.gz file.
  </tr>
 <?   } ?>
 <? } ?>
- <tr>
-  <td>Download on PalmGear (English)</td>
-  <td>&nbsp; &nbsp;</td>
-  <td></td>
-  <td>&nbsp;</td>
-  <td><a href="http://www.palmgear.com/software/redirector.cfm/UniChat<?=$version?>en.zip?prodID=45713&type=zip">.zip</a> (<?=filesize("{$basename}-{$version}_dist/{$basename}-{$version}-en.zip")?> Bytes)</td>
  </tr>
 </table>
 <br/>
 
 </div>
 
-<?php
-box_end();
-
-?>
-
 <? include("$DOCUMENT_ROOT/right.inc.php"); ?>
 <? include("$DOCUMENT_ROOT/footer.inc.php"); ?>
-</body>
-</html>
