@@ -1,9 +1,9 @@
-/* $Id: UniChat.rcp.in,v 1.1 2003/02/06 20:15:57 tim Exp $
+/* $Id: UniChat.rcp.in,v 1.2 2005/07/24 16:30:03 tim Exp $
  *
  * UniChat main file
  */
 
-#include "UniChat.h"
+#include "resources.h"
 
 application id APP_ID "##APPID##"
 applicationiconname id APP_NAMEID "##APPNAME##"

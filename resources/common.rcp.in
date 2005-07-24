@@ -1,9 +1,9 @@
-/* $Id: common.rcp.in,v 1.1 2003/02/06 20:15:57 tim Exp $
+/* $Id: common.rcp.in,v 1.2 2005/07/24 16:30:03 tim Exp $
  *
  * common stuff. bitmaps, menus, alerts
  */
 
-#include "UniChat.h"
+#include "resources.h"
 
 bitmapfamily id BITMAP_logo "images/icon_sw.bmp" "" "" "images/icon_256c.bmp" compress
 

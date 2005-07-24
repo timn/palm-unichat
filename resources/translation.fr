@@ -1,0 +1,34 @@
+/* $Id: translation.fr,v 1.1 2005/07/24 16:30:03 tim Exp $ */
+
+translation "french"
+begin
+
+
+/* about translation */
+  "translator" = "Nicolas Derive"
+  "trans_mail" = "loup_74@hotmail.com"
+  "trans_hdev" = "Palm m515"
+  "trans_palm" = "4.1"
+  "trans_trby" = "Traduction française par :"
+
+
+/* menu */
+  "men_ab" = "Info"
+
+
+/* alerts */
+  "al_ok" = "OK"
+  "al_rominc1" = "Système incompatible"
+  "al_rominc2" = "La version 3.5 ou supérieure du système est requise pour démarrer cette application."
+  "al_nomem1" = "Mémoire insuffisante"
+  "al_nomem2" = "Ne peut pas attribuer la mémoire."
+
+
+/* about */
+  "ab_title" = "A propos de Unichat"
+  "ab_d1" = "Application palmOS pour"
+  "ab_d2" = "murmures digitaux sans-fil"
+  "ab_get" = "Téléchargez les mises à jour sur"
+
+
+end

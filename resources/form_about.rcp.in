@@ -1,10 +1,10 @@
-/* $Id: form_about.rcp.in,v 1.1 2003/02/06 20:15:57 tim Exp $
+/* $Id: form_about.rcp.in,v 1.2 2005/07/24 16:30:03 tim Exp $
  *
  * The About Dialog
  * Created: 2002-07-12
  */
 
-#include "UniChat.h"
+#include "resources.h"
 
 ##TRANSLATION##
 
